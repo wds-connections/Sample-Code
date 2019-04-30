@@ -1,5 +1,3 @@
-## WDS.DarkBrain(DarkSystemCD)[Logic Production Engine];
-
 #### [:speech_balloon:]Create Window at Runtime
 <sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **Visual Basic**</sub>
 ```vb.net
@@ -97,14 +95,10 @@ myWindow.Content = myCanvas
 
 <table>
 <tr>
-<td><img src="https://i.imgur.com/4HoosJb.jpg" width="93" height="93"></td>
-<td>the available quality of this content are presented by ::<br>
-<sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a><br>
+<td></td>
+<td><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a><br>
 detailed description available in the projects and productions,</sub><br>
 <sup>developing delivered to collection information in the magazine.</sup><br>
 </td>
 </tr>
 </table>
-<!-- Start of CuterCounter Code -->
-<a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hits.php?id=gpadac&nd=9&style=5" border="0" alt="hit counter"></a>
-<!-- End of CuterCounter Code -->
