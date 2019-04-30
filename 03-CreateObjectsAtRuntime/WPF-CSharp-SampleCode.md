@@ -98,6 +98,3 @@ detailed description available in the projects and productions,</sub><br>
 </td>
 </tr>
 </table>
-<!-- Start of CuterCounter Code -->
-<a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hits.php?id=guupadak&nd=9&style=5" border="0" alt="website counter"></a>
-<!-- End of CuterCounter Code -->
