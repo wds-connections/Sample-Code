@@ -96,9 +96,9 @@ myWindow.Content = myCanvas
 <table>
 <tr>
 <td></td>
-<td><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a><br>
+<td><sup><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a><br>
 detailed description available in the projects and productions,</sub><br>
-<sup>developing delivered to collection information in the magazine.</sup><br>
+<sup>developing delivered to collection information in the magazine.</sup></sup><br>
 </td>
 </tr>
 </table>
