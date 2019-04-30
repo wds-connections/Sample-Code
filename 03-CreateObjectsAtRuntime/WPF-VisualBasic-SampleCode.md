@@ -95,10 +95,12 @@ myWindow.Content = myCanvas
 
 <table>
 <tr>
-<td></td>
-<td><sup><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a><br>
-detailed description available in the projects and productions,</sub><br>
-<sup>developing delivered to collection information in the magazine.</sup></sup><br>
-</td>
+<td><sup><sub>● <a href="https://en.wikipedia.org/wiki/Visual_Basic">Vsual Basic is a Computer Language by Microsoft Technologies;</a>
+<br>● <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation">Windows Presentation Foundation is a graphical subsystem by Microsoft Technologies</a>
+<br>● <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio">Visual Studio is a prograaming tool from Microsoft Technologies;</a></sub></sup></td></tr>
+<tr><td><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a></sub><br>
+<sub>detailed description available in the projects and productions,</sub><br>
+<sup>developing delivered to collection information in the magazine.</sup><br>
+</td></tr>
 </tr>
 </table>
