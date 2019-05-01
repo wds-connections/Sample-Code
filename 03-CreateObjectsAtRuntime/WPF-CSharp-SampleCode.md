@@ -1,5 +1,8 @@
+## :open_file_folder: Create Objects at Runtime
+### :page_facing_up: Windows Presentation Foundation (CSharp | C#)<hr>
+
 #### [:speech_balloon:]Create Window at Runtime
-<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using CSharp | C#</sub>
+<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **CSharp | C#**</sub>
 ```c#
 Window myWindow = new Window();
 myWindow.Name = "myWindow1";
@@ -17,7 +20,7 @@ myWindow.Show();
 <hr>
 
 #### [:speech_balloon:]Create Canvas Container
-<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using CSharp | C#</sub>
+<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **CSharp | C#**</sub>
 ```c#
 Canvas myCanvas = new Canvas();
 myCanvas.Name = "myCanvas1";
@@ -37,7 +40,7 @@ myCanvas.Height = Double.NaN;
 <hr>
 
 #### [:speech_balloon:]Create Button
-<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using CSharp | C#</sub>
+<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **CSharp | C#**</sub>
 ```c#
 Button myButton = new Button();
 myButton.Name = "myButton1";
@@ -55,7 +58,7 @@ muButton.Content = "myButton1";
 <hr>
 
 #### [:speech_balloon:]add myButton to myCanvas
-<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using CSharp | C#</sub>
+<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **CSharp | C#**</sub>
 ```c#
 myCanvas.Children.Add(myButton);
 ```
@@ -70,7 +73,7 @@ myCanvas.Children.Add(myButton);
 <hr>
 
 #### [:speech_balloon:]add myCanvas to myWindow
-<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using CSharp | C#</sub>
+<sub>(Sample Code) :: Windows Presentation Foundation {WPF} using **CSharp | C#**</sub>
 ```c#
 myWindow.Content = myCanvas;
 ```
@@ -86,14 +89,18 @@ myWindow.Content = myCanvas;
 
 <hr>
 
-<table>
-<tr>
-<td><sup><sub>● <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">CSharp | C# is a Computer Language by Microsoft Technologies;</a>
+<table><tr><td><!--MainLeft-->
+<table><tr><td><!--MainTop-->
+<sup><sub>● <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">CSharp | C# is a Computer Language by Microsoft Technologies;</a>
 <br>● <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation">Windows Presentation Foundation is a graphical subsystem by Microsoft Technologies</a>
-<br>● <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio">Visual Studio is a prograaming tool from Microsoft Technologies;</a></sub></sup></td></tr>
-<tr><td><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a></sub><br>
+<br>● <a href="https://en.wikipedia.org/wiki/Microsoft_Visual_Studio">Visual Studio is a prograaming tool from Microsoft Technologies;</a></sub></sup></td></tr><tr><td>
+<table><tr><td><!--MainBotton-->
+<img src="https://i.imgur.com/4HoosJb.jpg" width="56" height="56"></td><td><sub><a href="https://bloodart-magazine.tumblr.com">BloodArt.Magazine</a></sub><br>
 <sub>detailed description available in the projects and productions,</sub><br>
-<sup>developing delivered to collection information in the magazine.</sup><br>
-</td></tr>
-</tr>
-</table>
+<sup>developing delivered to collection information in the magazine.</sup>
+</td></tr></table></td></tr></tr></table></td>
+<td><!--MainRight-->
+  Index<br>
+  :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code">Sample Code</a><br>
+  ↳ :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/03-CreateObjectsAtRuntime">03-CreateObjectsAtRuntime</a>
+</td></tr></table>
