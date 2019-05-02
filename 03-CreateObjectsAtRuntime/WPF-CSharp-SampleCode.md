@@ -1,3 +1,19 @@
+<!-- WDS.DarkBrain® production
+
+     BloodArt.Magazine
+     detailed description available in the projects and productions,
+     developing delivered to collection information in the magazine.
+     
+     DarkSystemCD®
+     used to identify, meet, work and publish
+     logics and programming design, software, games and music
+     on interfaces and electronic, digital and virtual media.
+     
+     WDHellS
+     A virtual personal person trademark and nickname,
+     created for display my creations enabling it’s available world wide.
+-->
+
 ## :open_file_folder: Create Objects at Runtime
 ### :page_facing_up: Windows Presentation Foundation (CSharp | C#)<hr>
 
