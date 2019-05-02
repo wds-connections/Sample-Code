@@ -101,6 +101,6 @@ myWindow.Content = myCanvas;
 </td></tr></table></td></tr></tr></table></td>
 <td><!--MainRight-->
   Index<br>
-  :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code">Sample Code</a><br>
-  ↳ :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/03-CreateObjectsAtRuntime">03-CreateObjectsAtRuntime</a>
+  :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code#sample-code-collection-for-reference-and-productione">Sample Code</a><br>
+  ↳ :file_folder: <a href="https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/03-CreateObjectsAtRuntime#03-createobjectsatruntime">03-CreateObjectsAtRuntime</a>
 </td></tr></table>
