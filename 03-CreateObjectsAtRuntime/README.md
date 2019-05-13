@@ -6,3 +6,6 @@
 
 ### :file_folder: [WPF-VisualBasic-SampleCode.md](https://github.com/DarkSystemCD/Sample-Code/blob/GitHub/03-CreateObjectsAtRuntime/WPF-VisualBasic-SampleCode.md)<br>
 <sup>Examples using Visual Basic with Windows Presentation Foundation (WPF)</sup>
+
+### :file_folder: [Pascal-SampleCode.md](https://github.com/DarkSystemCD/Sample-Code/blob/GitHub/03-CreateObjectsAtRuntime/Pascal-SampleCode.md)<br>
+<sup>Examples using Pascal with Delphi \ Lazarus-IDE</sup>
