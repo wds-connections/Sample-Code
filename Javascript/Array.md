@@ -12,23 +12,19 @@ var myArray = [[],[]];            //variable declared as Multidimensional Array;
 it can be morphed in code to fit any usability - thus attention must held when structuring code logics;<br>
 this could be an issue when naming variables which would have different meanings; this is called *Reusing Variables*;
 
-<br>**USAGE** array by value; :speech_balloon:
+<br>**USAGE** adding elements to array; :speech_balloon:
 ```javascript
+
+//[?]Simple Variable ------------------------------;
 var myArray;                      //simple variable;
 
 myArray = [1,2,3];                //set Array value;
-window.alert(myArray[2]);         //result : 3
-```
-<br>**USAGE** empty array; :speech_balloon:
-```javascript
+
+//[?]Empty Variable -------------------------------;
 var myArray = [];                 //array variable;
 
 myArray.push([1,2,3]);            //add value to the end of array with push;
-window.alert(myArray[2]);         //result : 3
-```
-<br>**USAGE** defined array; :speech_balloon:
-```javascript
-var myArray = [1,2,3];            //array variable;
 
-window.alert(myArray[2]);         //result : 3
+//[?]Defined Array --------------------------------;
+var myArray = [1,2,3];            //array variable;
 ```
