@@ -10,7 +10,7 @@ var myArray = [[],[]];            //variable declared as Multidimensional Array;
 ```
 :memo: in javascript, **variables are not restricted by object types**;<br>
 it can be morphed in code to fit any usability - thus attention must held when structuring code logics;<br>
-this could be an issue when naming variables which would have different meanings; this is called Reusing Variables;
+this could be an issue when naming variables which would have different meanings; this is called *Reusing Variables*;
 
 <br>**USAGE** array by value; :speech_balloon:
 ```javascript
