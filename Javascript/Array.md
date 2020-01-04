@@ -23,7 +23,7 @@ myArray = [1,2,3];                //set Array value;
 //[?]Empty Variable -------------------------------;
 var myArray = [];                 //array variable;
 
-myArray.push([1,2,3]);            //add value to the end of array with push;
+myArray.push(1);                  //add value to the end of array with push;
 
 //[?]Defined Array --------------------------------;
 var myArray = [1,2,3];            //array variable;
