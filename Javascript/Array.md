@@ -8,3 +8,23 @@ var myArray = [1,2,3];            //variable declared as Array with value;
 var myArray = [[1,2,3],[4,5,6]];  //variable declared as Multidimensional Array with value;
 var myArray = [[],[]];            //variable declared as Multidimensional Array;
 ```
+<br>**USAGE** array by value; :speech_balloon:
+```javascript
+var myArray;                      //simple variable;
+
+myArray = [1,2,3];                //set Array value;
+window.alert(myArray[2]);         //result : 3
+```
+<br>**USAGE** empty array; :speech_balloon:
+```javascript
+var myArray = [];                 //array variable;
+
+myArray.push([1,2,3]);            //add value to the end of array with push;
+window.alert(myArray[2]);         //result : 3
+```
+<br>**USAGE** defined array; :speech_balloon:
+```javascript
+var myArray = [1,2,3];            //array variable;
+
+window.alert(myArray[2]);         //result : 3
+```
