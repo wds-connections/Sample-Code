@@ -28,5 +28,5 @@ myArray.push(1);                  //add value to the end of array with push;
 //[?]Defined Array --------------------------------;
 var myArray = [1,2,3];            //array variable;
 
-myArray.push([4,5,6]);            //add value to the end of array with push;
+myArray.push(4);                  //add value to the end of array with push;
 ```
