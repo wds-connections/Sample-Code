@@ -29,4 +29,9 @@ myArray.push(1);                  //add value to the end of array with push;
 var myArray = [1,2,3];            //array variable;
 
 myArray.push(4);                  //add value to the end of array with push;
+
+//[?]Empty Multidimensional Array -----------------;
+var myArray = [[],[]];            //array variable;
+
+
 ```
