@@ -9,7 +9,7 @@ f_class is a multi-purpose javascript function to handle and check element class
 being a database, consistency for indexes must remain once archived;
 
 ```javascript
-//[:] CLASSES            [database,index],element    ;
+//[:] CLASSES            [database,index\'class'],element    ;
 function f_class(V0,V1){
 //WDS.DarkBrain(DarkSystemCD)[logic production engine]
   //[?]FunctionLog;
