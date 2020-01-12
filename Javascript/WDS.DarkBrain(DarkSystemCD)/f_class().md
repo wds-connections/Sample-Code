@@ -73,7 +73,7 @@ default: return L(1),null;
 }else{return L(0),null;}
 }
 ```
-<hr>
-thanks for choosing DarkSystemCD.<br>
+
+thanks for choosing DarkSystemCD.<hr>
 
 [GitHub](https://github.com/DarkSystemCD);
