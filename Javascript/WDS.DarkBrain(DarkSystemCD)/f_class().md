@@ -73,4 +73,4 @@ var v10 = null;
 
 thanks for choosing DarkSystemCD.<hr>
 
-[![foo](https://github.githubassets.com/favicon.ico)](https://github.com/DarkSystemCD); [![foo](https://s.imgur.com/images/favicon-32x32.png)](https://imgur.com/user/DarkSystemCD); [![foo](https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico)](https://soundcloud.com/darksystemcd);
+[![foo](https://github.githubassets.com/favicon.ico)](https://github.com/DarkSystemCD) [![foo](https://s.imgur.com/images/favicon-32x32.png)](https://imgur.com/user/DarkSystemCD) [![foo](https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico)](https://soundcloud.com/darksystemcd)
