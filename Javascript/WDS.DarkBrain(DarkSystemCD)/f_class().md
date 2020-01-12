@@ -73,4 +73,4 @@ var v10 = null;
 
 thanks for choosing DarkSystemCD.<hr>
 
-[GitHub](https://github.com/DarkSystemCD);
+[GitHub](https://github.com/DarkSystemCD); [imgur](https://imgur.com/user/DarkSystemCD);
