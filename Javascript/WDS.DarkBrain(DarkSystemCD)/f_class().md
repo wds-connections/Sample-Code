@@ -70,7 +70,8 @@ var v10 = null;
 }else{return L(0),null;}
 }
 ```
-
 thanks for choosing DarkSystemCD.<hr>
 
 [![foo](https://github.githubassets.com/favicon.ico)](https://github.com/DarkSystemCD) [![foo](https://s.imgur.com/images/favicon-32x32.png)](https://imgur.com/user/DarkSystemCD) [![foo](https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico)](https://soundcloud.com/darksystemcd)
+
+###### DarkSystemCD® used to identify, meet, work and publish logics and programming design, software, games and music on interfaces and electronic, digital and virtual media.
