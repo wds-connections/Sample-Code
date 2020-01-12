@@ -10,7 +10,7 @@ f_class is a multi-purpose javascript function to handle and check element class
 being a database, consistency for indexes must remain once archived;
 
 ```javascript
-//[:] CLASSES    [database,index\'class'],element    ;
+//[:] CLASSES      [database,index\'class'],element  ;
 function f_class(V0,V1){
 //WDS.DarkBrain(DarkSystemCD)[logic production engine]
   //[?]FunctionLog;
@@ -21,7 +21,6 @@ function f_class(V0,V1){
      ,"[?] f_class() value where successfully found; \n\    V0[1] = "+V0[1]
      ,"[E] f_class() value where not found in the Class Database;\n\    V0[1] = "+V0[1]
      ,"[E] f_class() element where not found;\n\    V1 = "+V1
-     ,"[E] f_class() element class issue;"
      ,"[?] f_class() the element class already contains the value;"
      ,""
         ];
@@ -38,38 +37,35 @@ function f_class(V0,V1){
         }
       }
     }else{return L(4),null;}
-    for(let v10=0; v10<VV0.length; v10++){
-      if(v90.classList.contains(VV0[v10]) &&
-         VV0[v10] != VV0[V0[1]]){
-        return v90.setAttribute("class", v90.classList.toString().
-                                        replace(VV0[v10],VV0[V0[1]]));
-      }else{
-        if(v90.classList.contains(VV0[v10])){
-          return L(6,"\n\[ ] "+VV0[V0[1]]),null;
-        }
-        return L(5,"\n\[?] the element class does not contain:: "+VV0[v10]+
-                   "\n\--> the element.classList is\n\    ("+v90.classList+")"),
-               null;
+    let v10;
+    Loop0:
+    for(v10=0; v10<VV0.length; v10++){
+      if(v90.classList.contains(VV0[v10])){
+        if(VV0[v10] == VV0[V0[1]]){
+          return L(5,"\n\[v] "+VV0[V0[1]]),null;
+        }else{break Loop0;}
       }
     }
+    return v90.setAttribute("class", 
+               v90.classList.toString().replace(VV0[v10],VV0[V0[1]]));
   }
 if(V0 && Array.isArray(V0) && V0.length>=2){
 var v10 = null;
   if(typeof V0[1] === 'string'){v10 = true;}
-//[?]ClassDatabase;
-switch(V0[0]){
-case 1:
-    let v30=["theme-default","theme-test"];
-    //[?]CheckOnly;
-    if(v10){
-      if(v30.indexOf(V0[1])>=0){
-        return L(2),true;
-      }else{return L(3),null;}
-    }
-    return f_class_update(v30);
-case 2:
-default: return L(1),null;
-}
+  //[?]ClassDatabase;
+  switch(V0[0]){
+  case 1:
+      var v30=["theme-default","theme-test"];
+      //[?]CheckOnly;
+      if(v10){
+        if(v30.indexOf(V0[1])>=0){
+          return L(2),true;
+        }else{return L(3),null;}
+      }
+      return f_class_update(v30);
+  case 2:
+  default: return L(1),null;
+  }
 }else{return L(0),null;}
 }
 ```
