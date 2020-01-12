@@ -1,6 +1,7 @@
 ### f_class();
 
-WDS.DarkBrain(DarkSystemCD)[logic production engine]<br>
+> WDS.DarkBrain(DarkSystemCD)[logic production engine]
+
 f_class is a multi-purpose javascript function to handle and check element class databases;<hr>
 
 * the ***FunctionLog*** is available for reference to the f_class usability;
