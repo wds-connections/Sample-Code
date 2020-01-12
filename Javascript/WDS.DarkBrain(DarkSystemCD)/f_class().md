@@ -75,4 +75,5 @@ default: return L(1),null;
 ```
 <hr>
 thanks for choosing DarkSystemCD.<br>
-[GitHub](https://github.com/DarkSystemCD)
+
+[GitHub](https://github.com/DarkSystemCD);
