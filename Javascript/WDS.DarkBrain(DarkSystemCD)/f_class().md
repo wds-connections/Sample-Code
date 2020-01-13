@@ -50,24 +50,42 @@ function f_class(V0,V1){
     return v90.setAttribute("class", 
                v90.classList.toString().replace(VV0[v10],VV0[V0[1]]));
   }
-if(V0 && Array.isArray(V0) && V0.length>=2){
-var v10 = null;
-  if(typeof V0[1] === 'string'){v10 = true;}
-  //[?]ClassDatabase;
-  switch(V0[0]){
-  case 1:
-      var v30=["theme-default","theme-test"];
-      //[?]CheckOnly;
-      if(v10){
-        if(v30.indexOf(V0[1])>=0){
-          return L(2),true;
-        }else{return L(3),null;}
-      }
-      return f_class_update(v30);
-  case 2:
-  default: return L(1),null;
+  //[?]WrongParameters;
+  if(!V0 || !Array.isArray(V0) || !V0.length>=2){
+    return L(0),undefined;
   }
-}else{return L(0),null;}
+  //[?]ClassDatabase;
+  function f_class_database(){
+    var v10 = null;
+    if(typeof V0[1] === 'string'){v10 = true;}
+    switch(V0[0]){
+    case 1:
+        var v30=["theme-default","theme-test"];
+        if(v10){ //[?]CheckOnly;
+          if(v30.indexOf(V0[1])>=0){
+            return L(2),true;
+          }else{return L(3),null;}
+        }
+        return f_class_update(v30);
+    case 2:
+    default: return L(1),undefined;
+    }
+  }
+  
+  //[?]ValidateValue;UnknownIndex;
+  if(V1 && V1=="validate"){
+    let v10=true,v11=0;
+    while(v10){
+      v11++;
+      if(f_class_database(v11,V0[1])!=undefined){
+        v10=false;
+        return true;
+      }else{return null;}
+    }
+  }else{
+    //[?]Standard:SwitchClass;
+    return f_class_database();
+  }
 }
 ```
 thanks for choosing DarkSystemCD.<hr>
