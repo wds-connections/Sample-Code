@@ -55,10 +55,10 @@ function f_class(V0,V1){
     return L(0),undefined;
   }
   //[?]ClassDatabase;
-  function f_class_database(){
+  function f_class_database(VV0,VV1){
     var v10 = null;
     if(typeof V0[1] === 'string'){v10 = true;}
-    switch(V0[0]){
+    switch(VV0){
     case 1:
         var v30=["theme-default","theme-test"];
         if(v10){ //[?]CheckOnly;
@@ -73,7 +73,7 @@ function f_class(V0,V1){
   }
   
   //[?]ValidateValue;UnknownIndex;
-  if(V1 && V1=="validate"){
+  if(V0[0]=="validate"){
     let v10=true,v11=0;
     while(v10){
       v11++;
@@ -84,10 +84,21 @@ function f_class(V0,V1){
     }
   }else{
     //[?]Standard:SwitchClass;
-    return f_class_database();
+    return f_class_database(V0[0]);
   }
 }
 ```
+usability are sampled as following ::
+```javascript
+//Update Element Class Item;
+f_class([1,1],this);
+f_class([1,'theme-test'],this);
+f_class([1,1],'myElementId');
+f_class([1,'theme-test'],'myElementId');
+//Check for Class Item;
+if( f_class([1,'theme-test']) ){}
+```
+
 thanks for choosing DarkSystemCD.<hr>
 
 [![foo](https://github.githubassets.com/favicon.ico)](https://github.com/DarkSystemCD) [![foo](https://s.imgur.com/images/favicon-32x32.png)](https://imgur.com/user/DarkSystemCD) [![foo](https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico)](https://soundcloud.com/darksystemcd)
