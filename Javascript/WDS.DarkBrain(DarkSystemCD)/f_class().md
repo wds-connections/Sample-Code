@@ -108,4 +108,4 @@ thanks for choosing DarkSystemCD.<hr>
 
 ###### BloodArt.Magazine detailed description available in the projects and productions, developing delivered to collection information in the magazine.
 
-###### WDHellS A virtual personal person trademark and nickname, created for display my creations enabling it’s available world wide.
+###### WDHellS a virtual personal person trademark and nickname, created for display my creations enabling it’s available world wide.
