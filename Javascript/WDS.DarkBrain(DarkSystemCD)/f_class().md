@@ -97,6 +97,7 @@ f_class([1,1],'myElementId');
 f_class([1,'theme-test'],'myElementId');
 //Check for Class Item;
 if( f_class([1,'theme-test']) ){}
+if( f_class(['validate','theme-test']) ){}
 ```
 
 thanks for choosing DarkSystemCD.<hr>
