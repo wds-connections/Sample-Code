@@ -6,7 +6,7 @@ the web browsers where built restricted to internet addresses, in such a way tha
 are not permited as a desktop application due to *a* fact of internet being a virtual public environment;<br>
 
 frameworks where also made available in a logical conflict that a browser is to become the Operating System<br>
-on with the flexibility to construct a presentation are not held on object types in a disposable development manner;<br>
+on wich the flexibility to construct a presentation are not held on object types in a disposable development manner;<br>
 
 the ability to induce a open source concept, artistically where softwares are movie like productions<br>
 prevents a better quality as the personal computer productivity tends of being somebody stalking activity<br>
