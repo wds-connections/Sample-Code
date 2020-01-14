@@ -15,7 +15,12 @@ being a database, consistency for indexes must remain once archived;<br>
 even so the automatic ability to handle items remains to manually overcheck the indexed database;
 
 ```javascript
-//[:] CLASSES      [database,index\'class'],element  ;
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+// HTML Document created using Brackets[http://brackets.io/]     ;
+// Brackets Theme[http://bit.ly/DarkSystemCD-BracketsTheme]      ;
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+
+//[:] CLASSES                  [database,index\'class'],element  ;
 function f_class(V0,V1){
 //WDS.DarkBrain(DarkSystemCD)[logic production engine]
   var v20 = null;
