@@ -1,5 +1,5 @@
 ## ⚙️ f_class();
-🚧 version 0.1.0
+🚧 version 0.1
 
 > WDS.DarkBrain(DarkSystemCD)[logic production engine]
 
@@ -14,18 +14,20 @@ being a database, consistency for indexes must remain once archived;
 //[:] CLASSES      [database,index\'class'],element  ;
 function f_class(V0,V1){
 //WDS.DarkBrain(DarkSystemCD)[logic production engine]
+  var v20 = null;
   //[?]FunctionLog;
   function L(VV0,VV1=""){
     var vlog = [
-      "[E] f_class() has incorrect parameters; \n\    V0 = "+V0+"\n\[?] V0 must be array with length 2; [X,X]"
+      "[E] f_class() has incorrect parameters; \n\    V0 = "+V0+
+      "\n\    V1 = "+V1+"\n\ to apply class update V1 is required;"
      ,"[E] f_class() function database is IndexOutOfRange; \n\    V0[0] = "+V0[0]
-     ,"[?] f_class() value where successfully found; \n\    V0[1] = "+V0[1]
+     ,"[?] f_class() value where successfully found;"
      ,"[E] f_class() value where not found in the Class Database;\n\    V0[1] = "+V0[1]
      ,"[E] f_class() element where not found;\n\    V1 = "+V1
      ,"[?] f_class() the element class already contains the value;"
      ,""
         ];
-    return console.log(vlog[VV0]+VV1);
+    return console.log("\n\ "+vlog[VV0]+VV1+"\n\ ");
   }
   //[?]ClassUpdate:SafeChecks;
   function f_class_update(VV0){
@@ -42,42 +44,45 @@ function f_class(V0,V1){
     Loop0:
     for(v10=0; v10<VV0.length; v10++){
       if(v90.classList.contains(VV0[v10])){
-        if(VV0[v10] == VV0[V0[1]]){
-          return L(5,"\n\[v] "+VV0[V0[1]]),null;
+        if(VV0[v10] == v20){
+          return L(5,"\n\ [v] "+v20),null;
         }else{break Loop0;}
       }
     }
     return v90.setAttribute("class", 
-               v90.classList.toString().replace(VV0[v10],VV0[V0[1]]));
+               v90.classList.toString().replace(VV0[v10],v20));
   }
   //[?]WrongParameters;
-  if(!V0 || !Array.isArray(V0) || !V0.length>=2){
+  if(!V0 || !Array.isArray(V0)){
     return L(0),undefined;
-  }
+  }else{v20=V0[1];}
+  if(!typeof V0[0]==='string' || !V1 || !V0.length>=2){
+    return L(0),undefined;
+  }else{v20=V0[0];}
   //[?]ClassDatabase;
   function f_class_database(VV0,VV1){
     var v10 = null;
-    if(typeof V0[1] === 'string'){v10 = true;}
+    if(typeof V0[1] === 'string'||v20){v10 = true;}
     switch(VV0){
     case 1:
         var v30=["theme-default","theme-test"];
-        if(v10){ //[?]CheckOnly;
-          if(v30.indexOf(V0[1])>=0){
-            return L(2),true;
+        if(v10){
+          if(v30.indexOf(v20)>=0){
+            if(!v20){return L(2),true;}
           }else{return L(3),null;}
         }
         return f_class_update(v30);
     case 2:
-    default: return L(1),undefined;
+    default: return L(1,v20),undefined;
     }
   }
   
   //[?]ValidateValue;UnknownIndex;
-  if(V0[0]=="validate"){
+  if(V0[0]=="validate"||v20){
     let v10=true,v11=0;
     while(v10){
       v11++;
-      if(f_class_database(v11,V0[1])!=undefined){
+      if(f_class_database(v11,v20)!=undefined){
         v10=false;
         return true;
       }else{return null;}
@@ -91,16 +96,30 @@ function f_class(V0,V1){
 usability are sampled as following ::
 ```javascript
 //Update Element Class Item;
-f_class([1,1],this);
-f_class([1,'theme-test'],this);
-f_class([1,1],'myElementId');
-f_class([1,'theme-test'],'myElementId');
+f_class(['theme-test'],this);                //Automatic              Current Element;
+f_class([1,1],this);                         //Indexed                Current Element;
+f_class([1,'theme-test'],this);              //Indexed Specification  Current Element;
+f_class(['theme-test'],'myElementId');       //Automatic              Search Element;
+f_class([1,1],'myElementId');                //Indexed                Search Element;
+f_class([1,'theme-test'],'myElementId');     //Idexed Specification   Search Element;
 //Check for Class Item;
 if( f_class([1,'theme-test']) ){}
 if( f_class(['validate','theme-test']) ){}
 ```
 
 thanks for choosing DarkSystemCD.<hr>
+
+<!--
+the path of humanity had interrupted the development of computer games,
+resulting the availability of this document a self-incriminatory value of productivity
+in which said choices to promote societies where manipulated at open source concepts;
+the meaning of these situations is the privacy of permanence on the planet
+on that the productivity would be used by more socially capable individuals to perpetuate its acts
+where the DarkSystemCD® personal projects are illusions of being consumed as the values of other individuals;
+this is a intellectual property created for my creations;
+the creation process at the virtual reality is a customization process of the available logics,
+like dictionary and words that makes books so then lost in social endeavors;
+-->
 
 [![foo](https://github.githubassets.com/favicon.ico "DarkSystemCD®")](https://github.com/DarkSystemCD) [![foo](https://a-v2.sndcdn.com/assets/images/sc-icons/favicon-2cadd14bdb.ico "DarkSystemCD®")](https://soundcloud.com/darksystemcd)
 
