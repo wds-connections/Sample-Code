@@ -8,7 +8,8 @@ f_class is a multi-purpose javascript function to handle and check element class
 * the ***FunctionLog*** is available for reference to the f_class usability;
 * the **ClassUpdate** is available for management of the element class;
 * the **ClassDatabase** is available for hosting the document classes;<br>
-being a database, consistency for indexes must remain once archived;
+being a database, consistency for indexes must remain once archived;<br>
+even so the automatic ability to handle items remains to manually overcheck the indexed database;
 
 ```javascript
 //[:] CLASSES      [database,index\'class'],element  ;
