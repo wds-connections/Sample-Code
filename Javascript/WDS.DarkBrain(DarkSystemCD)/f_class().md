@@ -53,16 +53,14 @@ function f_class(V0,V1){
                v90.classList.toString().replace(VV0[v10],v20));
   }
   //[?]WrongParameters;
-  if(!V0 || !Array.isArray(V0)){
-    return L(0),undefined;
-  }else{v20=V0[1];}
-  if(!typeof V0[0]==='string' || !V1 || !V0.length>=2){
-    return L(0),undefined;
-  }else{v20=V0[0];}
+  if(!V0 || !Array.isArray(V0)){return L(0),undefined;}
+  if(!typeof V0[0]==='string' || !V1){return L(0),undefined;}
+  if(V0.length<2){v20=V0[0];}
+  else{if(typeof V0[1]==='string'){v20=V0[1];}}
   //[?]ClassDatabase;
   function f_class_database(VV0,VV1){
     var v10 = null;
-    if(typeof V0[1] === 'string'||v20){v10 = true;}
+    if(typeof V0[1] === 'string'){v10 = true;}
     switch(VV0){
     case 1:
         var v30=["theme-default","theme-test"];
@@ -71,6 +69,7 @@ function f_class(V0,V1){
             if(!v20){return L(2),true;}
           }else{return L(3),null;}
         }
+        if(!v20){v20=v30[V0[1]]}
         return f_class_update(v30);
     case 2:
     default: return L(1,v20),undefined;
@@ -89,7 +88,7 @@ function f_class(V0,V1){
     }
   }else{
     //[?]Standard:SwitchClass;
-    return f_class_database(V0[0]);
+    return f_class_database(V0[0],V0[1]);
   }
 }
 ```
