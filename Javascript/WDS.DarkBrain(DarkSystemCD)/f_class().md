@@ -105,8 +105,8 @@ f_class(['theme-test'],'myElementId');       //Automatic              Search Ele
 f_class([1,1],'myElementId');                //Indexed                Search Element;
 f_class([1,'theme-test'],'myElementId');     //Idexed Specification   Search Element;
 //Check for Class Item;
-if( f_class([1,'theme-test']) ){}
-if( f_class(['validate','theme-test']) ){}
+if( f_class([1,'theme-test']) ){}            //Indexed                No Element CheckOnly;
+if( f_class(['validate','theme-test']) ){}   //UnknownIndex           No Element CheckOnly;
 ```
 
 thanks for choosing DarkSystemCD.<hr>
