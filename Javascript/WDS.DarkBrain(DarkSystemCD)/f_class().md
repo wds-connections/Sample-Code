@@ -115,16 +115,16 @@ if( f_class(['validate','theme-test']) ){}   //UnknownIndex           No Element
 ```
 
 ### Descriptions
-* Automatic<br>
-the function search, validate and change the related element class item to a specified value;
-* Indexed and Indexed Specification<br>
-the function validate and change the related element class item to a specified value;
-* Check Class Indexed<br>
-the function validate a class value and return true\false;
-* Validate Class<br>
-the function search and validate a class value and return true\false;
+* **Automatic**<br>
+the function *search*, *validate* and *change* the related element class item to a specified value;
+* **Indexed** and **Indexed Specification**<br>
+the function *validate* and *change* the related element class item to a specified value;
+* **Check Class Indexed**<br>
+the function *validate* a class value then return true\false;
+* **Validate Class**<br>
+the function *search* and *validate* a class value then return true\false;
 
-`this function where created with the quality of desktop applications;`<br>
+`this function where created with the quality for desktop applications;`<br>
 `being an engine for element class manipulation and database;`
 
 thanks for choosing DarkSystemCD.<hr>
