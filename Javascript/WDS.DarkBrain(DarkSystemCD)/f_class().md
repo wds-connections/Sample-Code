@@ -1,9 +1,12 @@
-## ⚙️ f_class();
+[DarkSystemCD®](https://github.com/DarkSystemCD) / [Sample Code](https://github.com/DarkSystemCD/Sample-Code) / [JavaScript](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript) / [WDS.DarkBrain(DarkSystemCD)](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript/WDS.DarkBrain(DarkSystemCD))
+
+
+# ⚙️ f_class();
 🚧 version 0.1
 
 > WDS.DarkBrain(DarkSystemCD)[logic production engine]
 
-f_class is a multi-purpose javascript function to handle and check element class databases;<hr>
+`f_class is a multi-purpose javascript function to handle and check element class databases;`<hr>
 
 * the ***FunctionLog*** is available for reference to the f_class usability;
 * the **ClassUpdate** is available for management of the element class;
@@ -116,10 +119,10 @@ thanks for choosing DarkSystemCD.<hr>
 the path of humanity had interrupted the development of computer games,
 resulting the availability of this document a self-incriminatory value of productivity
 in which said choices to promote societies where manipulated at open source concepts;
+
 the meaning of these situations is the privacy of permanence on the planet
-on that the productivity would be used by more socially capable individuals to perpetuate its acts
-where the DarkSystemCD® personal projects are illusions of being consumed as the values of other individuals;
-this is a intellectual property created for my creations;
+on that the productivity would be used by more socially capable individuals to perpetuate its acts;
+
 the creation process at the virtual reality is a customization process of the available logics,
 like dictionary and words that makes books so then lost in social endeavors;
 -->
