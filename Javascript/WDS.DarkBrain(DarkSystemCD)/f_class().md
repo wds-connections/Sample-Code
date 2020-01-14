@@ -54,7 +54,10 @@ function f_class(V0,V1){
   }
   //[?]WrongParameters;
   if(!V0 || !Array.isArray(V0)){return L(0),undefined;}
-  if(!typeof V0[0]==='string' || !V1){return L(0),undefined;}
+  if(typeof V0[0]==='string' &&
+     typeof V0[1]==='string' && !V1){}else{
+  if(!typeof V0[0]==='string' && V1 || 
+      typeof V0[0]==='string' && !V1){return L(0),undefined;}}
   if(V0.length<2){v20=V0[0];}
   else{if(typeof V0[1]==='string'){v20=V0[1];}}
   //[?]ClassDatabase;
@@ -66,7 +69,7 @@ function f_class(V0,V1){
         var v30=["theme-default","theme-test"];
         if(v10){
           if(v30.indexOf(v20)>=0){
-            if(!v20){return L(2),true;}
+            if(!v20 || !V1){return L(2),true;}
           }else{return L(3),null;}
         }
         if(!v20){v20=v30[V0[1]]}
