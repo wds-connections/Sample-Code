@@ -108,10 +108,24 @@ f_class([1,'theme-test'],this);              //Indexed Specification  Current El
 f_class(['theme-test'],'myElementId');       //Automatic              Search Element;
 f_class([1,1],'myElementId');                //Indexed                Search Element;
 f_class([1,'theme-test'],'myElementId');     //Idexed Specification   Search Element;
+
 //Check for Class Item;
 if( f_class([1,'theme-test']) ){}            //Indexed                No Element CheckOnly;
 if( f_class(['validate','theme-test']) ){}   //UnknownIndex           No Element CheckOnly;
 ```
+
+### Descriptions
+* Automatic<br>
+the function search, validate and change the related element class item to a specified value;
+* Indexed and Indexed Specification<br>
+the function validate and change the related element class item to a specified value;
+* Check Class Indexed<br>
+the function validate a class value and return true\false;
+* Validate Class<br>
+the function search and validate a class value and return true\false;
+
+`this function where created with the quality of desktop applications;`<br>
+`being an engine for element class manipulation and database;`
 
 thanks for choosing DarkSystemCD.<hr>
 
