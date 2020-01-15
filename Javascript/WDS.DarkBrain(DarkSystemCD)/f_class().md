@@ -1,5 +1,8 @@
 [DarkSystemCD®](https://github.com/DarkSystemCD) / [Sample Code](https://github.com/DarkSystemCD/Sample-Code) / [JavaScript](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript) / [WDS.DarkBrain(DarkSystemCD)](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript/WDS.DarkBrain(DarkSystemCD))
 
+![foo](https://i.imgur.com/e3jUBda.jpg "BloodArt: Computer Software")
+
+f_class is a multi-purpose javascript function to handle and check element class databases;)
 
 # ⚙️ f_class();
 🚧 version 0.1
