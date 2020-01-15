@@ -1,5 +1,5 @@
 [DarkSystemCD®](https://github.com/DarkSystemCD) / [Sample Code](https://github.com/DarkSystemCD/Sample-Code) / [JavaScript](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript) / [WDS.DarkBrain(DarkSystemCD)](https://github.com/DarkSystemCD/Sample-Code/tree/GitHub/Javascript/WDS.DarkBrain(DarkSystemCD))
-
+![foo](https://i.imgur.com/e3jUBda.jpg)
 
 # ⚙️ f_class();
 🚧 version 0.1
